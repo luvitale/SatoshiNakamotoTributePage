@@ -1,0 +1,24 @@
+#box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: black;
+    color: white;
+}
+
+#box-1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 1em;
+    font-weight: bold;
+    line-height: inherit;
+}
+
+#box-2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 1em;
+    font-weight: normal;
+    line-height: inherit;
+    color: orange;
+}
