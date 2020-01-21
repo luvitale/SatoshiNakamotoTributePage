@@ -1,38 +1,14 @@
 body.satoshi {
-    background-color: darkred;
-}
-
-#box-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     background-color: black;
-    color: white;
-}
-
-#box-1 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0 1em;
-    font-weight: bold;
-    line-height: inherit;
-}
-
-#box-2 {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0 1em;
-    font-weight: normal;
-    line-height: inherit;
-    color: orange;
 }
 
 h1#title {
     color: white;
+    font-weight: bold;
     font-size: 1rem;
 }
 
-h1#title, div#img-div {
+h1#title, figure#img-div {
     padding: 1em 0;
 }
 
@@ -59,16 +35,9 @@ img#image {
 }
 
 @media (min-width: 600px) {
-    #box-1 {
-        font-size: 2rem;
-    }
-    
-    #box-2 {
-        font-size: 2rem;
-    }
-    
+
     h1#title {
-        color: white;
         font-size: 2rem;
     }
+
 }
