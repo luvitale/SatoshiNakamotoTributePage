@@ -34,7 +34,7 @@ main#main {
 }
 
 img#image {
-    width: 30vw;
+    max-width: 50%;
     display: block;
     height: auto;
     margin: auto;
@@ -46,13 +46,13 @@ h2#subtitle {
     font-weight: bold;
 }
 
-#tribute-info, h3#tribute-link {
+#tribute-info, h3#text-link {
     color: white;
     font-size: .7rem;
     font-weight: normal;
 }
 
-h3#tribute-link {
+h3#text-link {
     padding: 1em 0;
 }
 
@@ -70,7 +70,7 @@ h3#tribute-link {
         font-size: 1.2rem;
     }
 
-    #tribute-info, h3#tribute-link {
+    #tribute-info, h3#text-link {
         font-size: 1rem;
     }
     
