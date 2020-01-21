@@ -11,7 +11,7 @@ body.satoshi {
 }
 
 #box-1 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0 1em;
     font-weight: bold;
@@ -19,10 +19,20 @@ body.satoshi {
 }
 
 #box-2 {
-    font-size: 2rem;
+    font-size: 1rem;
     margin: 0;
     padding: 0 1em;
     font-weight: normal;
     line-height: inherit;
     color: orange;
+}
+
+@media (min-width: 600px) {
+    #box-1 {
+        font-size: 2rem;
+    }
+    
+    #box-2 {
+        font-size: 2rem;
+    }
 }
