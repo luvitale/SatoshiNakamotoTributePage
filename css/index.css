@@ -12,6 +12,12 @@ h1#title, figure#img-div {
     padding: 1em 0;
 }
 
+figcaption#img-caption {
+    color: white;
+    padding: 1em 0;
+    font-size: .3rem;
+}
+
 main#main {
     display: flex;
     text-align: center;
@@ -38,6 +44,10 @@ img#image {
 
     h1#title {
         font-size: 2rem;
+    }
+    
+    figcaption#img-caption {
+        font-size: .85rem;
     }
 
 }
