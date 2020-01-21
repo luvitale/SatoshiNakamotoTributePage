@@ -1,3 +1,7 @@
+body.satoshi {
+    background-color: darkred;
+}
+
 #box-container {
     display: flex;
     justify-content: space-between;
