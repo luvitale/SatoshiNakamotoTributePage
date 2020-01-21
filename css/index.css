@@ -29,7 +29,10 @@ body.satoshi {
 
 h1#title {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
+}
+
+h1#title, div#img-div {
     padding: 1em 0;
 }
 
@@ -48,12 +51,24 @@ main#main {
     height: 50%;
 }
 
+img#image {
+    width: 30vw;
+    display: block;
+    height: auto;
+    margin: auto;
+}
+
 @media (min-width: 600px) {
     #box-1 {
         font-size: 2rem;
     }
     
     #box-2 {
+        font-size: 2rem;
+    }
+    
+    h1#title {
+        color: white;
         font-size: 2rem;
     }
 }
