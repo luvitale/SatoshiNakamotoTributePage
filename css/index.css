@@ -27,6 +27,27 @@ body.satoshi {
     color: orange;
 }
 
+h1#title {
+    color: white;
+    font-size: 2rem;
+    padding: 1em 0;
+}
+
+main#main {
+    display: flex;
+    text-align: center;
+}
+
+#section-1 {
+    width: 50%;
+    height: 50%;
+}
+
+#section-2 {
+    width: 50%;
+    height: 50%;
+}
+
 @media (min-width: 600px) {
     #box-1 {
         font-size: 2rem;
