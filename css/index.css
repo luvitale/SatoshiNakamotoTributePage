@@ -1,15 +1,17 @@
 body.satoshi {
     background-color: black;
+    color: white;
 }
 
 h1#title {
     color: white;
     font-weight: bold;
     font-size: 1rem;
+    font-family: Verdana;
 }
 
 h1#title, figure#img-div {
-    padding: 1em 0;
+    padding-top: 1em;
 }
 
 figcaption#img-caption {
@@ -40,6 +42,12 @@ img#image {
     margin: auto;
 }
 
+h2#subtitle {
+    color: white;
+    font-size: .8rem;
+    font-weight: normal;
+}
+
 @media (min-width: 600px) {
 
     h1#title {
@@ -48,6 +56,10 @@ img#image {
     
     figcaption#img-caption {
         font-size: .85rem;
+    }
+    
+    h2#subtitle {
+        font-size: 1.2rem;
     }
 
 }
