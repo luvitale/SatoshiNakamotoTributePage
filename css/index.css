@@ -17,21 +17,19 @@ h1#title, figure#img-div {
 figcaption#img-caption {
     color: white;
     padding: 1em 0;
-    font-size: .3rem;
+    font-size: .5rem;
 }
 
 main#main {
     display: flex;
     text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
-#section-1 {
-    width: 50%;
-    height: 50%;
-}
-
-#section-2 {
-    width: 50%;
+#section-1, #section-2 {
+    width: 75%;
     height: 50%;
 }
 
@@ -45,7 +43,17 @@ img#image {
 h2#subtitle {
     color: white;
     font-size: .8rem;
+    font-weight: bold;
+}
+
+#tribute-info, h3#tribute-link {
+    color: white;
+    font-size: .7rem;
     font-weight: normal;
+}
+
+h3#tribute-link {
+    padding: 1em 0;
 }
 
 @media (min-width: 600px) {
@@ -55,11 +63,23 @@ h2#subtitle {
     }
     
     figcaption#img-caption {
-        font-size: .85rem;
+        font-size: 1rem;
     }
     
     h2#subtitle {
         font-size: 1.2rem;
     }
 
+    #tribute-info, h3#tribute-link {
+        font-size: 1rem;
+    }
+    
+    main#main {
+        flex-direction: row;
+    }
+    
+    #section-1, #section-2 {
+        width: 40%;
+    }
+    
 }
